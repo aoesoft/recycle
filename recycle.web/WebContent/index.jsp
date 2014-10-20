@@ -118,7 +118,7 @@
         <div class="row ">
           <div class="span12">
             <!-- Logo -->
-            <h1 class="brand brand_"><a href="index.html"><img src="img/logo.jpg" alt=""></a></h1>
+            <h1 class="brand brand_"><a href="index.html"><img src="img/logo2.pngF" alt=""></a></h1>
             <!-- Navigation -->
             <div class="navbar navbar_">
               <div class="container">
@@ -215,16 +215,15 @@
           </li>
           <li class="banners_item style-2 nomargin">
             <div class="tail">
-              <div class="inner"><i class="fontawesome-icon medium circle-yes icon-lightbulb"></i>
+              <div class="inner"><i class="fontawesome-icon medium circle-yes icon-food"></i>
                 <h4>厨房小家电</h4>
-                <p>酸奶机、煮蛋器、电热饭盒、豆浆机、电热水壶、微波炉、电压力煲、豆芽机、抽油烟机、电磁炉、
-电饭煲...</p>
+                <p>酸奶机、煮蛋器、电热饭盒、豆浆机、电热水壶、微波炉、电压力煲、豆芽机、抽油烟机、电磁炉、电饭煲...</p>
                 <a href="#" class="button">进入</a> </div>
             </div>
           </li>
           <li class="banners_item style-3 ">
             <div class="tail">
-              <div class="inner"><i class="fontawesome-icon medium circle-yes icon-link"></i>
+              <div class="inner"><i class="fontawesome-icon medium circle-yes icon-lightbulb"></i>
                 <h4>家居小家电</h4>
                 <p>
                 	电风扇、音响、吸尘器、电暖器、加湿器、空气清新器、饮水机
@@ -242,7 +241,7 @@
           </li>
           <li class="banners_item style-5 ">
             <div class="tail">
-              <div class="inner"><i class="fontawesome-icon medium circle-yes icon-upload-alt"></i>
+              <div class="inner"><i class="fontawesome-icon medium circle-yes icon-desktop"></i>
                 <h4>电脑.</h4>
                 <p>电脑专区.</p>
                 <a href="#" class="button">进入</a> </div>
@@ -250,7 +249,7 @@
           </li>
           <li class="banners_item style-6 nomargin">
             <div class="tail">
-              <div class="inner"><i class="fontawesome-icon medium circle-yes icon-text-width"></i>
+              <div class="inner"><i class="fontawesome-icon large circle-yes icon-camera-retro"></i>
                 <h4>数码.</h4>
                 <p>MP3、MP4、电子词典、掌上学习机、游戏机、数码相机、数码摄像机</p>
                 <a href="#" class="button">进入</a> </div>
