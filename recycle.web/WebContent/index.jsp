@@ -1,7 +1,8 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Success</title>
+<title>易收（易手）</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="img/favicon.ico" type="image/x-icon">
@@ -28,13 +29,7 @@
 <link rel="stylesheet" href="css/portfolio.css" type="text/css" media="screen">
 <link rel="stylesheet" href="css/portfolio-shape.css" type="text/css" media="screen">
 <link rel="stylesheet" href="css/elements.css" type="text/css" media="screen">
-<!-- 
-<link rel='stylesheet' id='Pacifico-css'  href='http://fonts.googleapis.com/css?family=Pacifico&#038;ver=3.4.2' type='text/css' media='all' />
-<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,400italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700italic,600italic,400italic,300italic,800,700,600,300|Open+Sans+Condensed:300,700,300italic|Fredericka+the+Great' rel='stylesheet' type='text/css'>
- -->
 <!--[if lt IE 9]>
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/docs.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
   <![endif]-->
@@ -42,6 +37,7 @@
 <body class="home-page stretched">
 <div id="wrapper">
   <!--==============================header=================================-->
+  
   <div class="header-block clearfix">
     <!-- open close panel -->
     <div id="toppanel">
@@ -54,63 +50,64 @@
                 <li class="span3">
                   <div class="thumbnail_2"> <img src="img/icons/top-icon1.png" alt="">
                     <div>
-                      <h2>Easy to customize</h2>
-                      <p class="p0">Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonu mmy nibh euismodt. Lorem ipsum dolor sit amet.</p>
+                      <h2>维修检测</h2>
+                      <p class="p0"></p>
                     </div>
                   </div>
                 </li>
                 <li class="span3">
                   <div class="thumbnail_2"> <img alt="" src="img/icons/top-icon2.png">
                     <div>
-                      <h2>Responsive Layout</h2>
-                      <p class="">Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonu mmy nibh euismodt. Lorem ipsum dolor sit amet.</p>
+                      <h2>二手回收</h2>
+                      <p class=""></p>
                     </div>
                   </div>
                 </li>
                 <li class="span3">
                   <div class="thumbnail_2"> <img src="img/icons/top-icon3.png" alt="">
                     <div>
-                      <h2>Clean Design</h2>
-                      <p class="">Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonu mmy nibh euismodt. Lorem ipsum dolor sit amet.</p>
+                      <h2>以旧换新</h2>
+                      <p class=""></p>
                     </div>
                   </div>
                 </li>
                 <li class="span3">
                   <div class="thumbnail_2"> <img src="img/icons/top-icon4.png" alt="">
                     <div>
-                      <h2>Need Help</h2>
-                      <p class="">Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonu mmy nibh euismodt. Lorem ipsum dolor sit amet.</p>
+                      <h2>帮助中心</h2>
+                      <p class="">提出建议与要求</p>
                     </div>
                   </div>
                 </li>
               </ul>
             </div>
-            <div class="span12">
+           <!--  <div class="span12">
               <div class="alert fade in alert-info">
                 <button data-dismiss="alert" class="close" type="button">×</button>
                 <strong>Welcome to Success!</strong> Work on all browsers, Be Creative, Fully Customizable Theme. </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
       <div class="toggle-button" id="hide_button" style="display: none;"><a href="#"><i class="icon-chevron-up icon-white"></i></a></div>
     </div>
-    <div class="toggle-button" style="display: visible;"><a href="#"><i class="icon-chevron-down icon-white"></i></a></div>
+    <!-- <div class="toggle-button" style="display: visible;"><a href="#"><i class="icon-chevron-down icon-white"></i></a></div>
+     -->
     <!-- topbar -->
     <div id="topbar">
       <div class="container clearfix">
         <div class="row ">
           <div class="span12">
             <address class="vcard">
-            <span class="tel"><i class="icon-phone"></i> +1.800.900.024</span> <a class="email" href="mailto:info@owltemplates.com"><i class="icon-envelope"></i> info@owltemplates.com</a>
+            <span class="tel"><i class="icon-phone"></i> 1.800.900.024</span> <a class="email" href="mailto:info@owltemplates.com"><i class="icon-envelope"></i> info@owltemplates.com</a>
             </address>
-            <ul class="header-social-icon">
+            <!-- <ul class="header-social-icon">
               <li><a class="icon" href="#"><i class="icon-google-plus"></i></a></li>
               <li><a class="icon" href="#"><i class="icon-github"></i></a></li>
               <li><a class="icon" href="#"><i class="icon-linkedin"></i></a></li>
               <li><a class="icon" href="#"><i class="icon-twitter"></i></a></li>
               <li><a class="icon" href="#"><i class="icon-facebook"></i></a></li>
-            </ul>
+            </ul> -->
           </div>
         </div>
       </div>
@@ -121,7 +118,7 @@
         <div class="row ">
           <div class="span12">
             <!-- Logo -->
-            <h1 class="brand brand_"><a href="index.html"><img src="img/logo.png" alt=""></a></h1>
+            <h1 class="brand brand_"><a href="index.html"><img src="img/logo.jpg" alt=""></a></h1>
             <!-- Navigation -->
             <div class="navbar navbar_">
               <div class="container">
@@ -202,6 +199,191 @@
       </div>
     </header>
   </div>
+  
+  <!--==============================content=================================-->
+  <section id="content">
+    <div id="banners">
+      <div class="container">
+        <ul class="banners_cycle">
+          <li class="banners_item style-1 ">
+            <div class="tail">
+              <div class="inner"><i class="fontawesome-icon medium circle-yes icon-globe"></i>
+                <h4>大家电</h4>
+                <p>空调、平板电视、冷柜、洗衣机、电热水器、燃气热水器、吸油烟机、家庭音响...</p>
+                <a href="#" class="button">进入</a> </div>
+            </div>
+          </li>
+          <li class="banners_item style-2 nomargin">
+            <div class="tail">
+              <div class="inner"><i class="fontawesome-icon medium circle-yes icon-lightbulb"></i>
+                <h4>厨房小家电</h4>
+                <p>酸奶机、煮蛋器、电热饭盒、豆浆机、电热水壶、微波炉、电压力煲、豆芽机、抽油烟机、电磁炉、
+电饭煲...</p>
+                <a href="#" class="button">进入</a> </div>
+            </div>
+          </li>
+          <li class="banners_item style-3 ">
+            <div class="tail">
+              <div class="inner"><i class="fontawesome-icon medium circle-yes icon-link"></i>
+                <h4>家居小家电</h4>
+                <p>
+                	电风扇、音响、吸尘器、电暖器、加湿器、空气清新器、饮水机
+                </p>
+                <a href="#" class="button">进入</a> </div>
+            </div>
+          </li>
+          <li class="banners_item style-4 nomargin">
+            <div class="tail">
+              <div class="inner"><i class="fontawesome-icon medium circle-yes icon-hand-down"></i>
+                <h4>手机.</h4>
+                <p>手机专区.</p>
+                <a href="#" class="button">进入</a> </div>
+            </div>
+          </li>
+          <li class="banners_item style-5 ">
+            <div class="tail">
+              <div class="inner"><i class="fontawesome-icon medium circle-yes icon-upload-alt"></i>
+                <h4>电脑.</h4>
+                <p>电脑专区.</p>
+                <a href="#" class="button">进入</a> </div>
+            </div>
+          </li>
+          <li class="banners_item style-6 nomargin">
+            <div class="tail">
+              <div class="inner"><i class="fontawesome-icon medium circle-yes icon-text-width"></i>
+                <h4>数码.</h4>
+                <p>MP3、MP4、电子词典、掌上学习机、游戏机、数码相机、数码摄像机</p>
+                <a href="#" class="button">进入</a> </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <article class="span3">
+          <div class="title">
+            <h4 class="indent-1">Features</h4>
+          </div>
+          <div class="img-border">
+            <div class="img-slidewrap">
+              <ul class="img-slidecontrol">
+                <li><a href="#imgslider" class="next"><i class="icon-chevron-right icon-white"></i></a></li>
+                <li><a href="#imgslider" class="prev"><i class="icon-chevron-left icon-white"></i></a></li>
+              </ul>
+              <ul class="img-slider" id="imgslider">
+                <li class="img-slide"> <img src="img/page1-img2.jpg" alt=""/>
+                  <ul class="team-social">
+                    <li class="twitter-team"><a href="#">Twitter</a></li>
+                    <li class="facebook-team"><a href="#">Facebook</a></li>
+                    <li class="dribbble-team"><a href="#">Dribbble</a></li>
+                    <li class="skype-team"><a href="#">Skype</a></li>
+                  </ul>
+                </li>
+                <li class="img-slide"> <img src="img/page1-img3.jpg" alt=""/>
+                  <ul class="team-social">
+                    <li class="twitter-team"><a href="#">Twitter</a></li>
+                    <li class="facebook-team"><a href="#">Facebook</a></li>
+                    <li class="dribbble-team"><a href="#">Dribbble</a></li>
+                    <li class="skype-team"><a href="#">Skype</a></li>
+                  </ul>
+                </li>
+                <li class="img-slide"> <img src="img/page1-img4.jpg" alt=""/>
+                  <ul class="team-social">
+                    <li class="twitter-team"><a href="#">Twitter</a></li>
+                    <li class="facebook-team"><a href="#">Facebook</a></li>
+                    <li class="dribbble-team"><a href="#">Dribbble</a></li>
+                    <li class="skype-team"><a href="#">Skype</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <ul class="list-feature">
+            <li><a href="#">Quisque diam lorem sectetuer adipiscing</a></li>
+            <li><a href="#">Scelerisque ipsum auctor vitae, pede</a></li>
+            <li><a href="#">Lacinia dictum elementum velit fermentum</a></li>
+            <li><a href="#">Donec in velit vel ipsum auctor pulvinar</a></li>
+            <li><a href="#">Scelerisque ipsum auctor vitae, pede</a></li>
+            <li><a href="#">Sictum elementum velit fermentum</a></li>
+          </ul>
+        </article>
+        <article class="span3">
+          <div class="title">
+            <h4 class="indent-1">易收网动态</h4>
+          </div>
+          <ul class="list-blog">
+            <li>
+              <div class="overlow post-holder-sm extra">
+                <div class="date"> <span class="day">1</span> <span class="month">11月</span> </div>
+                <div class="date-1"> <span>南京服务点开通</span></div>
+                <p>
+                	易收网南京服务点正式启用
+                </p>
+                <a class="btn-3 btn" href="#">了解更多</a></div>
+            </li>
+            <li>
+              <div class="overlow post-holder-sm extra">
+                <div class="date"> <span class="day">30</span> <span class="month">10月</span> </div>
+                <div class="date-1"> <span>易收网正式上线</span></div>
+                <p>
+                	易收网正式上线运营，我们将积极完善各项服务
+                </p>
+               <a class="btn-3 btn" href="#">了解更多</a></div>
+            </li>
+          </ul>
+        </article>
+        <article class="span6">
+          <div class="title">
+            <h4 class="indent-1">服务流程</h4>
+          </div>
+          <div id="accordion" class="shadow-large"> 
+          	<a> <span>第一步：在线评估</span></a>
+            <div class="accordion-wrapper">
+              <p> 
+              	<span class="dropcap8">1</span>
+              	选择产品类型 （品牌/型号）
+              </p>
+              <p>
+              	<span class="dropcap8">2</span>填写产品的使用情况 
+              </p>
+              <p>
+              	<span class="dropcap8">3</span>系统进行在线评估，给出参考报价 
+              </p>
+            </div>
+            <a><span>第二步：提交订单</span></a>
+            <div class="accordion-wrapper">
+              <p> 
+              	填写联系方式，会有专人与您联系确定上门回收的时间。
+              </p>
+            </div>
+            <a><span>第三步：上门回收</span></a>
+            <div class="accordion-wrapper">
+              <p> 
+              	回收人员根据约定的时间上门检测产品，并且评估产品的使用情况，给出最终的报价，完成回收交易。
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+      <!-- info box -->
+      <div class="row">
+        <div class="span12">
+          <div class="info-box shadow-large">
+            <div class="info-box-inner">
+              <div class="info-content">
+                <h4>让我们一起为环保做出努力！</h4>
+                <p>苏宁关爱客户，更关爱地球. </p>
+              </div>
+              <!-- <a style="float: right;" class="button medium red" href="#">携手!</a> -->
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
   <!--============================== Slider =================================-->
   <div class="fullwidthbanner-container">
     <div class="shadowdrop"></div>
@@ -262,7 +444,7 @@
 					 data-y="252" 
 					 data-speed="1000" 
 					 data-start="3300" 
-					 data-easing="easeInExpo"  >PREMIUM HTML WEBSITE THEME</div>
+					 data-easing="easeInExpo"  >专业的团队</div>
           <div class="tp-caption medium_whitebg sft"  
 					 data-x="610" 
 					 data-y="100" 
@@ -530,174 +712,7 @@
       <div class="tp-bannertimer"></div>
     </div>
   </div>
-  <!--==============================content=================================-->
-  <section id="content">
-    <div id="banners">
-      <div class="container">
-        <ul class="banners_cycle">
-          <li class="banners_item style-1 ">
-            <div class="tail">
-              <div class="inner"><i class="fontawesome-icon medium circle-yes icon-globe"></i>
-                <h4>Listen.</h4>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tin.</p>
-                <a href="#" class="button">Read More</a> </div>
-            </div>
-          </li>
-          <li class="banners_item style-2 nomargin">
-            <div class="tail">
-              <div class="inner"><i class="fontawesome-icon medium circle-yes icon-lightbulb"></i>
-                <h4>Analyze.</h4>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tin.</p>
-                <a href="#" class="button">Read More</a> </div>
-            </div>
-          </li>
-          <li class="banners_item style-3 ">
-            <div class="tail">
-              <div class="inner"><i class="fontawesome-icon medium circle-yes icon-link"></i>
-                <h4>Develop.</h4>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tin.</p>
-                <a href="#" class="button">Read More</a> </div>
-            </div>
-          </li>
-          <li class="banners_item style-4 nomargin">
-            <div class="tail">
-              <div class="inner"><i class="fontawesome-icon medium circle-yes icon-hand-down"></i>
-                <h4>Integrate.</h4>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tin.</p>
-                <a href="#" class="button">Read More</a> </div>
-            </div>
-          </li>
-          <li class="banners_item style-5 ">
-            <div class="tail">
-              <div class="inner"><i class="fontawesome-icon medium circle-yes icon-upload-alt"></i>
-                <h4>Grow.</h4>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tin.</p>
-                <a href="#" class="button">Read More</a> </div>
-            </div>
-          </li>
-          <li class="banners_item style-6 nomargin">
-            <div class="tail">
-              <div class="inner"><i class="fontawesome-icon medium circle-yes icon-text-width"></i>
-                <h4>Complete.</h4>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tin.</p>
-                <a href="#" class="button">Read More</a> </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <article class="span3">
-          <div class="title">
-            <h4 class="indent-1">Features</h4>
-          </div>
-          <div class="img-border">
-            <div class="img-slidewrap">
-              <ul class="img-slidecontrol">
-                <li><a href="#imgslider" class="next"><i class="icon-chevron-right icon-white"></i></a></li>
-                <li><a href="#imgslider" class="prev"><i class="icon-chevron-left icon-white"></i></a></li>
-              </ul>
-              <ul class="img-slider" id="imgslider">
-                <li class="img-slide"> <img src="img/page1-img2.jpg" alt=""/>
-                  <ul class="team-social">
-                    <li class="twitter-team"><a href="#">Twitter</a></li>
-                    <li class="facebook-team"><a href="#">Facebook</a></li>
-                    <li class="dribbble-team"><a href="#">Dribbble</a></li>
-                    <li class="skype-team"><a href="#">Skype</a></li>
-                  </ul>
-                </li>
-                <li class="img-slide"> <img src="img/page1-img3.jpg" alt=""/>
-                  <ul class="team-social">
-                    <li class="twitter-team"><a href="#">Twitter</a></li>
-                    <li class="facebook-team"><a href="#">Facebook</a></li>
-                    <li class="dribbble-team"><a href="#">Dribbble</a></li>
-                    <li class="skype-team"><a href="#">Skype</a></li>
-                  </ul>
-                </li>
-                <li class="img-slide"> <img src="img/page1-img4.jpg" alt=""/>
-                  <ul class="team-social">
-                    <li class="twitter-team"><a href="#">Twitter</a></li>
-                    <li class="facebook-team"><a href="#">Facebook</a></li>
-                    <li class="dribbble-team"><a href="#">Dribbble</a></li>
-                    <li class="skype-team"><a href="#">Skype</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <ul class="list-feature">
-            <li><a href="#">Quisque diam lorem sectetuer adipiscing</a></li>
-            <li><a href="#">Scelerisque ipsum auctor vitae, pede</a></li>
-            <li><a href="#">Lacinia dictum elementum velit fermentum</a></li>
-            <li><a href="#">Donec in velit vel ipsum auctor pulvinar</a></li>
-            <li><a href="#">Scelerisque ipsum auctor vitae, pede</a></li>
-            <li><a href="#">Sictum elementum velit fermentum</a></li>
-          </ul>
-        </article>
-        <article class="span3">
-          <div class="title">
-            <h4 class="indent-1">Latest news</h4>
-          </div>
-          <ul class="list-blog">
-            <li>
-              <div class="overlow post-holder-sm extra">
-                <div class="date"> <span class="day">14</span> <span class="month">March</span> </div>
-                <div class="date-1"> <span>Seuis labore et dolore</span></div>
-                <p>Eiusmod tempor labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                <a class="btn-3 btn" href="#">Read more</a></div>
-            </li>
-            <li>
-              <div class="overlow post-holder-sm extra">
-                <div class="date"> <span class="day">14</span> <span class="month">March</span> </div>
-                <div class="date-1"> <span>Seuis labore et dolore</span></div>
-                <p>Eiusmod tempor labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                <a class="btn-3 btn" href="#">Read more</a></div>
-            </li>
-          </ul>
-        </article>
-        <article class="span6">
-          <div class="title">
-            <h4 class="indent-1">What We Offers</h4>
-          </div>
-          <div id="accordion" class="shadow-large"> <a> <span>Success Is Fully Translation Ready!</span></a>
-            <div class="accordion-wrapper">
-              <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore. </p>
-              <p>adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-            </div>
-            <a><span>Amazing Page Builder!</span></a>
-            <div class="accordion-wrapper">
-              <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-              <p>adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-            </div>
-            <a><span>Unlimited Number of Sliders</span></a>
-            <div class="accordion-wrapper">
-              <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-            </div>
-            <a><span>Unlimited Accent Colors</span></a>
-            <div class="accordion-wrapper">
-              <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-            </div>
-          </div>
-        </article>
-      </div>
-      <!-- info box -->
-      <div class="row">
-        <div class="span12">
-          <div class="info-box shadow-large">
-            <div class="info-box-inner">
-              <div class="info-content">
-                <h4>Give us a chance and we will prove our efficiency!</h4>
-                <p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Fusce suscipit. </p>
-              </div>
-              <a style="float: right;" class="button medium yellow" href="#">Leta work together!</a>
-              <div class="clearfix"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  
   <!--==============================footer=================================-->
   <footer>
     <div id="footer" class="section-3 footer-dark">
@@ -705,50 +720,52 @@
         <div class="row">
           <!-- Contact us -->
           <div class="span3">
-            <h2>Contact us</h2>
+            <h2>联系我们</h2>
             <address class="vcard">
-            <span class="street-address">3301 Envato Melbourne, Little Lonsdale St</span> <span class="tel">+1 234 123 4567</span> <a href="mailto:info@owltemplates.com" class="email">info@owltemplates.com</a>
-            <ul id="social" class="tooltip-demo">
+            <span class="street-address">南京市玄武区徐庄软件园苏宁大道1号</span> 
+            <span class="tel">+1 234 123 4567</span> 
+            <a href="mailto:info@owltemplates.com" class="email">info@owltemplates.com</a>
+            <!-- <ul id="social" class="tooltip-demo">
               <li><a rel="tooltip" title="RSS" href="#"><img alt="RSS" src="img/social_icons/rss.png"></a></li>
               <li><a rel="tooltip" title="Twitter" href="#"><img alt="Twitter" src="img/social_icons/twitter.png"></a></li>
               <li><a rel="tooltip" title="Facebook" href="#"><img alt="Facebook" src="img/social_icons/facebook.png"></a></li>
               <li><a rel="tooltip" title="Dribbble" href="#"><img alt="Dribbble" src="img/social_icons/dribbble.png"></a></li>
               <li><a rel="tooltip" title="Flickr" href="#"><img alt="Flickr" src="img/social_icons/flickr.png"></a></li>
               <li><a rel="tooltip" title="Skype" href="#"><img alt="Skype" src="img/social_icons/skype.png"></a></li>
-            </ul>
+            </ul> -->
             </address>
           </div>
           <!-- Useful Links -->
           <div class="span3">
-            <h2>Useful Links</h2>
+            <h2>友情链接</h2>
             <ul class="list">
-              <li><a href="#">In faucibus orci luctus et</a></li>
-              <li><a href="#">Ultrices posuere cubilia Curae</a></li>
+              <li><a href="http://www.suning.com/"><img src="http://script.suning.cn/images/logo/snlogo.png"></a></li>
+              <!-- <li><a href="#">Ultrices posuere cubilia Curae</a></li>
               <li><a href="#">Suspendisse sollicitudin velit sed leo</a></li>
-              <li><a href="#">Nam elit agna,endrerit sit amet</a></li>
+              <li><a href="#">Nam elit agna,endrerit sit amet</a></li> -->
             </ul>
           </div>
           <!-- twitter feed  -->
           <div class="span3">
-            <h2>Twitter Feed</h2>
+            <h2>使用帮助</h2>
             <div class="tweets">
-              <p> Loading Tweets... </p>
+              <p> </p>
               <ul id="tweet-list">
               </ul>
             </div>
           </div>
           <!-- Newsletter -->
           <div class="span3">
-            <h2>Newsletter</h2>
+            <h2>关注动态</h2>
             <form class="navbar-inverse form-search">
               <div class="navbar-search input-append">
-                <input type="text" placeholder="Your Email" class="span2 search-query">
-                <button type="submit" class="btn btn-warning">submit</button>
+                <input type="text" placeholder="您的邮箱" class="span2 search-query">
+                <button type="submit" class="btn btn-warning">提交</button>
               </div>
               <div class="clearfix"></div>
             </form>
             <div class="clearfix p1">
-              <p class="text-info"><i>Lorem ipsum dolor sit amet, consectetuer adipiscing, sed diam nonummy nibh eui.</i></p>
+              <p class="text-info"><i>订阅本网站的更新或活动。</i></p>
             </div>
           </div>
         </div>
@@ -758,22 +775,22 @@
     <div id="copyrights" class="footer-2 footer-dark">
       <div class="container">
         <div class="row">
-          <div class="span12">Copyright &copy; 2014.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></div>
+          <div class="span12">Copyright &copy; 2014.  &nbsp;AOE软件设计工作室 (<a target="_blank" href="mailto:aoesoftware@foxmail.com">aoesoftware@foxmail.com </a>)  &nbsp; All rights reserved.<a target="_blank" href="mailto:aoesoftware@foxmail.com">技术支持</a></div>
         </div>
       </div>
     </div>
   </footer>
 </div>
 <!--==============================Style Switcher =================================-->
-<!--<div class="switcher clearfix">
-  <div class="switcher-head"> <span>Choose your Style</span>
+<div class="switcher clearfix">
+  <div class="switcher-head"> <span>风格</span>
     <div class="switcher-trigger icon-cog"></div>
   </div>
   <div class="switcher-body clearfix">
     <div class="switcher-op-layout">
       <select id="switcher-option-layout" name="switcher-option-layout" class="input-block-level nobottommargin">
-        <option value="layout-boxed">Boxed</option>
-        <option value="layout-full" selected="selected">Full Width</option>
+        <option value="layout-boxed">盒子</option>
+        <option value="layout-full" selected="selected">全屏</option>
       </select>
     </div>
     <div class="line"></div>
@@ -822,7 +839,7 @@
     <div class="line"></div>
     <div id="switcher-option-footer" class="switcher-op-footerc clearfix"> <a href="#" data-color="dark" class="swfooter-active">Dark Footer</a> <a href="#" data-color="light">Light Footer</a> </div>
   </div>
-</div>-->
+</div>
 <!-- Placed at the end of the document so the pages load faster -->
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
@@ -1001,6 +1018,5 @@
 			});
 		});
   </script>
-<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
 </body>
 </html>
