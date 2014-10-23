@@ -205,15 +205,41 @@
     <div id="banners">
       <div class="container">
         <ul class="banners_cycle">
+        <li class="banners_item style-4 nomargin">
+            <div class="tail">
+              <div class="inner"><i class="fontawesome-icon medium circle-yes icon-hand-down"></i>
+                <h4>手机.</h4>
+                <p>手机专区.</p>
+                <a href="#" class="button">进入</a> </div>
+            </div>
+          </li>
           <li class="banners_item style-1 ">
             <div class="tail">
               <div class="inner"><i class="fontawesome-icon medium circle-yes icon-globe"></i>
                 <h4>大家电</h4>
-                <p>空调、平板电视、冷柜、洗衣机、电热水器、燃气热水器、吸油烟机、家庭音响...</p>
+                <p>冷柜、洗衣机、电热水器、燃气热水器、吸油烟机、家庭音响...</p>
                 <a href="#" class="button">进入</a> </div>
             </div>
           </li>
           <li class="banners_item style-2 nomargin">
+            <div class="tail">
+              <div class="inner"><i class="fontawesome-icon medium circle-yes icon-food"></i>
+                <h4>空调</h4>
+                <p>空调专区</p>
+                <a href="#" class="button">进入</a> </div>
+            </div>
+          </li>
+          <li class="banners_item style-3 ">
+            <div class="tail">
+              <div class="inner"><i class="fontawesome-icon medium circle-yes icon-lightbulb"></i>
+                <h4>电视</h4>
+                <p>
+                	电视专区
+                </p>
+                <a href="#" class="button">进入</a> </div>
+            </div>
+          </li>
+          <!-- <li class="banners_item style-2 nomargin">
             <div class="tail">
               <div class="inner"><i class="fontawesome-icon medium circle-yes icon-food"></i>
                 <h4>厨房小家电</h4>
@@ -230,15 +256,7 @@
                 </p>
                 <a href="#" class="button">进入</a> </div>
             </div>
-          </li>
-          <li class="banners_item style-4 nomargin">
-            <div class="tail">
-              <div class="inner"><i class="fontawesome-icon medium circle-yes icon-hand-down"></i>
-                <h4>手机.</h4>
-                <p>手机专区.</p>
-                <a href="#" class="button">进入</a> </div>
-            </div>
-          </li>
+          </li> -->
           <li class="banners_item style-5 ">
             <div class="tail">
               <div class="inner"><i class="fontawesome-icon medium circle-yes icon-desktop"></i>
