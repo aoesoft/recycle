@@ -99,7 +99,7 @@
         <div class="row ">
           <div class="span12">
             <address class="vcard">
-            <span class="tel"><i class="icon-phone"></i> 1.800.900.024</span> <a class="email" href="mailto:info@owltemplates.com"><i class="icon-envelope"></i> info@owltemplates.com</a>
+            <span class="tel"><i class="icon-phone"></i> 1.800.900.024</span> <a class="email" href="mailto:info@suning.com"><i class="icon-envelope"></i> info@suning.com</a>
             </address>
             <!-- <ul class="header-social-icon">
               <li><a class="icon" href="#"><i class="icon-google-plus"></i></a></li>
@@ -118,12 +118,12 @@
         <div class="row ">
           <div class="span12">
             <!-- Logo -->
-            <h1 class="brand brand_"><a href="index.html"><img src="img/logo2.pngF" alt=""></a></h1>
+            <h1 class="brand brand_"><a href="index.html"><img src="img/logo.jpg" alt=""></a></h1>
             <!-- Navigation -->
             <div class="navbar navbar_">
               <div class="container">
                 <!--=========== menu ===============-->
-                <div class="nav-collapse nav-collapse_ collapse">
+                <!-- <div class="nav-collapse nav-collapse_ collapse">
                   <ul class="nav sf-menu">
                     <li class="active sub-menu"><a href="index.html">Home</a>
                       <ul>
@@ -190,7 +190,7 @@
                     </li>
                     <li><a href="contact.html">Contact us </a></li>
                   </ul>
-                </div>
+                </div> -->
               </div>
             </div>
             <div class="clear"></div>
@@ -258,11 +258,426 @@
         </ul>
       </div>
     </div>
+    
     <div class="container">
       <div class="row">
-        <article class="span3">
+        <article class="span12">
           <div class="title">
-            <h4 class="indent-1">Features</h4>
+            <h4 class="indent-1">热门品牌</h4>
+          </div>
+    <div class="container right-line">
+      <div class="row">
+        <div id="mySliderTabsContainer">
+          <!-- Sample slider -->
+          <div id="mySliderTabs">
+            <ul class="left-tab-links">
+              <li><a href="#step1" class="cn_item">手机</a></li>
+              <li><a href="#step2" class="cn_item">平板</a></li>
+              <li><a href="#step3" class="cn_item">电脑</a></li>
+              <li><a href="#step4" class="cn_item">空调</a></li>
+              <li><a href="#step5" class="cn_item">洗衣机</a></li>
+              <li><a href="#step6" class="cn_item">冰箱</a></li>
+              <li><a href="index4.html" target="_blank" class="cn_item">电视</a></li>
+              <li><a href="#step8" class="cn_item">小家电</a></li>
+              <li><a href="#step9" class="cn_item">大家电</a></li>
+              <li><a href="#step10" class="cn_item">其他</a></li>
+            </ul>
+            <div id="step1">
+              <div class="row">
+              	<div class="span10">
+				    	<!-- client logo -->
+				        <ul class="list-banners ">
+				          <li><a href="#"><img src="img/brand/phone/apple.jpg" alt="苹果"></a></li>
+				          <li><a href="#"><img src="img/brand/phone/samsung.jpg" alt="三星"></a></li>
+				          <li><a href="#"><img src="img/brand/phone/htc.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/phone/huawei.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/phone/zte.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/phone/meizi.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/phone/xiaomi.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/phone/lenovo.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/phone/haier.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/phone/oppo.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/phone/moto.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/phone/nokia.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/phone/sony.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/phone/sonyer.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/phone/tcl.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/phone/BlackBerry.jpg" alt="黑莓"></a></li>
+				          <li><a href="#"><img src="img/brand/phone/vivo.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/phone/chuizi.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/phone/coolpai.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/phone/duopuda.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/phone/fushitong.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/phone/ginee.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/phone/lg.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/phone/phipi.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/phone/sharp.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/phone/touch.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/phone/yijia.jpg" alt=""></a></li>
+				        </ul>
+				       <ul class="list-feature">
+			            <li><a href="#">查看更多品牌</a></li>
+			           </ul>
+			         </div>
+              </div>
+            </div>
+            <div id="step2">
+              <div class="row">
+              	<div class="span10">
+				    	<!-- client logo -->
+				        <ul class="">
+				          <li class="es-carousel_li gallery">
+				          	<figure class="featured-thumbnail">
+		                    <div class="img-border portfolio-overlay"> 
+		                      <img src="img/brand/tablet/ipad.jpg" alt=""/>
+		                      <div class="portfolio-overlay-content">
+		                        <h2>苹果iPad</h2>
+							  </div>
+		                    </div>
+		                   </figure>
+				          </li>
+				          <li class="es-carousel_li gallery">
+				          	<figure class="featured-thumbnail">
+		                    <div class="img-border portfolio-overlay"> 
+		                      <img src="img/brand/tablet/samsang.jpg" alt=""/>
+		                      <div class="portfolio-overlay-content">
+		                        <h2>三星Samsung</h2>
+							  </div>
+		                    </div>
+		                   </figure>
+				          </li>
+				          <li class="es-carousel_li gallery">
+				          	<figure class="featured-thumbnail">
+		                    <div class="img-border portfolio-overlay"> 
+		                      <img src="img/brand/tablet/dell.jpg" alt=""/>
+		                      <div class="portfolio-overlay-content">
+		                        <h2>Dell</h2>
+							  </div>
+		                    </div>
+		                   </figure>
+				          </li>
+				          <li class="es-carousel_li gallery">
+				          	<figure class="featured-thumbnail">
+		                    <div class="img-border portfolio-overlay"> 
+		                      <img src="img/brand/tablet/huasuo.jpg" alt=""/>
+		                      <div class="portfolio-overlay-content">
+		                        <h2>华硕</h2>
+							  </div>
+		                    </div>
+		                   </figure>
+				          </li>
+				          <li class="es-carousel_li gallery">
+				          	<figure class="featured-thumbnail">
+		                    <div class="img-border portfolio-overlay"> 
+		                      <img src="img/brand/tablet/kubi.jpg" alt=""/>
+		                      <div class="portfolio-overlay-content">
+		                        <h2>酷比</h2>
+							  </div>
+		                    </div>
+		                   </figure>
+				          </li>
+				          <li class="es-carousel_li gallery">
+				          	<figure class="featured-thumbnail">
+		                    <div class="img-border portfolio-overlay"> 
+		                      <img src="img/brand/tablet/lenovo.jpg" alt=""/>
+		                      <div class="portfolio-overlay-content">
+		                        <h2>联想Lenovo</h2>
+							  </div>
+		                    </div>
+		                   </figure>
+				          </li>
+				          <li class="es-carousel_li gallery">
+				          	<figure class="featured-thumbnail">
+		                    <div class="img-border portfolio-overlay"> 
+		                      <img src="img/brand/tablet/lg.jpg" alt=""/>
+		                      <div class="portfolio-overlay-content">
+		                        <h2>LG</h2>
+							  </div>
+		                    </div>
+		                   </figure>
+				          </li>
+				          <li class="es-carousel_li gallery">
+				          <figure class="featured-thumbnail">
+		                    <div class="img-border portfolio-overlay"> 
+		                     <img src="img/brand/tablet/surface.jpg" alt=""/>
+		                      <div class="portfolio-overlay-content">
+		                        <h2>微软Surface</h2>
+							  </div>
+		                    </div>
+		                  </figure>
+				          </li>
+				        </ul>
+				       <ul class="list-feature">
+			            <li><a href="#">查看更多品牌</a></li>
+			           </ul>
+			         </div>
+              </div>
+            </div>
+            <div id="step3">
+              <div class="row">
+              	<div class="span9">
+                  <div class="indent-3" id="3pricelist">
+                    <div class="price-table price-table-three">
+                      <div class="price-column  price-column-first">
+                        <h4>国产品牌</h4>
+                        <ul>
+                          <!-- <li class="first">
+                            <div class="price-tag"><span class="price-value">$9</span><span class="price-period">/ month</span></div>
+                          </li> -->
+                          <li>联想 Lenovo</li>
+                          <li>神舟 Hasee</li>
+                          <li>海尔 Haier</li>
+                          <li>同方</li>
+                          <li>小米</li>
+                          <li>清华</li>
+                          <li class="last"><a class="button" href="#">更多</a></li>
+                        </ul>
+                      </div>
+                      <div class="price-column price-column-secord"> <!-- price-column-featured -->
+                        <h4>港台品牌</h4>
+                        <ul>
+                          <!-- <li class="first">
+                            <div class="price-tag"><span class="price-value">$24</span><span class="price-period">/ month</span></div>
+                          </li> -->
+                          <li>宏基 Acer</li>
+                          <li>华硕 ASUS</li>
+                          <li class="last"><a class="button" href="#">更多</a></li>
+                        </ul>
+                      </div>
+                      <div class="price-column  price-column-last">
+                        <h4>国外品牌</h4>
+                        <ul>
+                          <!-- <li class="first">
+                            <div class="price-tag"><span class="price-value">$199</span><span class="price-period">/ month</span></div>
+                          </li> -->
+                          <li>戴尔 Dell</li>
+                          <li>IBM ThinkPad</li>
+                          <li>松下 Panasonic</li>
+                          <li>LG</li>
+                          <li>NEC</li>
+                          <li>富士通 FUJITSU</li>
+                          <li>索尼 SONY</li>
+                          <li>东芝 TOSHIBA</li>
+                          <li>三星 Samsung</li>
+                          <li>惠普 HP</li>
+                          <li>苹果 Apple Mac</li>
+                          <li class="last"><a class="button" href="#">更多</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+                <!-- <div class="span3">
+                  <div class="hiring">
+                    <h4>&mdash; 国产品牌 &mdash;</h4>
+                    <table align="center">
+                    	<tr><td><a href="#">联想 Lenovo</a></td></tr>
+                    	<tr><td><a href="#">神舟 Hasee</a></td></tr>
+                    	<tr><td><a href="#">海尔 Haier</a></td></tr>
+                    	<tr><td><a href="#">清华同方</a></td></tr>
+                    	<tr><td><a href="#">小米</a></td></tr>
+                    </table>
+				 </div>
+                </div>
+                <div class="span3">
+                  <div class="hiring">
+                    <h4>&mdash; 港台品牌 &mdash;</h4>
+                  	<table align="center">
+                    	<tr><td><a href="#">宏基 Acer</a></td></tr>
+                    	<tr><td><a href="#">华硕 ASUS</a></td></tr>
+                    </table>  
+                  </div>
+                </div>
+                <div class="span3">
+                  <div class="hiring">
+                  	<h4>&mdash; 国外品牌 &mdash;</h4>
+                  	<table align="center">
+                    	<tr><td><a href="#">戴尔 Dell</a></td></tr>
+                    	<tr><td><a href="#">IBM ThinkPad</a></td></tr>
+                    	<tr><td><a href="#">松下 Panasonic</a></td></tr>
+                    	<tr><td><a href="#">LG</a></td></tr>
+                    	<tr><td><a href="#">NEC</a></td></tr>
+                    	<tr><td><a href="#">富士通 FUJITSU</a></td></tr>
+                    	<tr><td><a href="#">索尼 SONY</a></td></tr>
+                    	<tr><td><a href="#">东芝 TOSHIBA</a></td></tr>
+                    	<tr><td><a href="#">三星 Samsung</a></td></tr>
+                    	<tr><td><a href="#">惠普 HP</a></td></tr>
+                    	<tr><td><a href="#">惠普 HP</a></td></tr>
+                    	<tr><td><a href="#">苹果 Apple</a></td></tr>
+                    </table>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+            <div id="step4">
+              <div class="row">
+              	<div class="span10">
+				    	<!-- client logo -->
+				        <ul class="list-banners ">
+				          <li><a href="#"><img src="img/brand/kongtiao/aokeshi.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/kongtiao/chunlan.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/kongtiao/daikin.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/kongtiao/fushitong.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/kongtiao/gelanshi.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/kongtiao/geli.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/kongtiao/haier.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/kongtiao/haixin.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/kongtiao/kelong.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/kongtiao/lg.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/kongtiao/meidi.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/kongtiao/sanlin.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/kongtiao/sanlindianji.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/kongtiao/sanxin.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/kongtiao/sanyang.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/kongtiao/songxia.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/kongtiao/tcl.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/kongtiao/xinke.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/kongtiao/zhigao.jpg" alt=""></a></li>
+				        </ul>
+				       <ul class="list-feature">
+			            <li><a href="#">查看更多品牌</a></li>
+			           </ul>
+			         </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+          <!-- <ul class="list-feature">
+            <li><a href="#">查看更多品牌</a></li>
+          </ul> -->
+        </article>
+      </div>
+    </div>
+    
+    
+    
+    <div class="design-section">
+      <div class="container">
+        <!-- latest posts -->
+        <div class="title2">
+          <div class="title-box clearfix">
+            <h4 class="title-box_primary">热门设备</h4>
+            <h3 class="title-box_secondary">Hot Rank</h3>
+          </div>
+        </div>
+        <div class="carousel-wrap carousel__formats">
+          <div id="carousel-blog" class="es-carousel-wrapper">
+            <div class="es-carousel">
+              <ul class="es-carousel_list">
+                <li class="es-carousel_li gallery">
+                  <figure class="featured-thumbnail">
+                    <div class="img-border portfolio-overlay"> 
+                      <img src="img/hot/samsung_1.jpg" alt=""/>
+                      <div class="portfolio-overlay-content">
+                        <h2>三星GALAXY Note 4</h2>
+                      </div>
+                    </div>
+                  </figure>
+                  <div class="carousel-proj-text">
+                    <h5><a href="#">类别:手机</a></h5>
+                    <p class="excerpt">（N9100/公开版/双4G） <br>回收次数：800次 / 八成新均价:2100元</p>
+                  </div>
+                </li>
+                <li class="es-carousel_li gallery">
+                  <figure class="featured-thumbnail">
+                    <div class="img-border portfolio-overlay"> 
+                      <img src="img/hot/iphone4s.jpg" alt="" style="width:600; height:400" class="prettyPhoto"/>
+                      <div class="portfolio-overlay-content">
+                        <h2>苹果 IPhone4s</h2>
+                      </div>
+                    </div>
+                  </figure>
+                  <div class="carousel-proj-text">
+                    <h5><a href="#">类别:手机</a></h5>
+                    <p class="excerpt">IPhone4s <br>回收次数：680次 / 八成新均价:1800元</p>
+                  </div>
+                </li>
+                <li class="es-carousel_li gallery">
+                  <figure class="featured-thumbnail">
+                    <div class="img-border portfolio-overlay"> 
+                      <img src="img/hot/samsung_1.jpg" alt=""/>
+                      <div class="portfolio-overlay-content">
+                        <h2>三星GALAXY Note 4</h2>
+                      </div>
+                    </div>
+                  </figure>
+                  <div class="carousel-proj-text">
+                    <h5><a href="#">类别:手机</a></h5>
+                    <p class="excerpt">（N9100/公开版/双4G） <br>回收次数：800次 / 八成新均价:2100元</p>
+                  </div>
+                </li>
+                <li class="es-carousel_li gallery">
+                  <figure class="featured-thumbnail">
+                    <div class="img-border portfolio-overlay"> 
+                      <img src="img/hot/iphone4s.jpg" alt="" style="width:600; height:400" class="prettyPhoto"/>
+                      <div class="portfolio-overlay-content">
+                        <h2>苹果 IPhone4s</h2>
+                      </div>
+                    </div>
+                  </figure>
+                  <div class="carousel-proj-text">
+                    <h5><a href="#">类别:手机</a></h5>
+                    <p class="excerpt">IPhone4s <br>回收次数：680次 / 八成新均价:1800元</p>
+                  </div>
+                </li>
+                
+                <li class="es-carousel_li gallery">
+                  <figure class="featured-thumbnail">
+                    <div class="img-border portfolio-overlay"> 
+                      <img src="img/hot/samsung_1.jpg" alt=""/>
+                      <div class="portfolio-overlay-content">
+                        <h2>三星GALAXY Note 4</h2>
+                      </div>
+                    </div>
+                  </figure>
+                  <div class="carousel-proj-text">
+                    <h5><a href="#">类别:手机</a></h5>
+                    <p class="excerpt">（N9100/公开版/双4G） <br>回收次数：800次 / 八成新均价:2100元</p>
+                  </div>
+                </li>
+                <li class="es-carousel_li gallery">
+                  <figure class="featured-thumbnail">
+                    <div class="img-border portfolio-overlay"> 
+                      <img src="img/hot/iphone4s.jpg" alt="" style="width:600; height:400" class="prettyPhoto"/>
+                      <div class="portfolio-overlay-content">
+                        <h2>苹果 IPhone4s</h2>
+                      </div>
+                    </div>
+                  </figure>
+                  <div class="carousel-proj-text">
+                    <h5><a href="#">类别:手机</a></h5>
+                    <p class="excerpt">IPhone4s <br>回收次数：680次 / 八成新均价:1800元</p>
+                  </div>
+                </li>
+               <!--  <li class="es-carousel_li gallery">
+                  <figure class="featured-thumbnail">
+                    <div class="img-border portfolio-overlay"> <img src="img/es-carousel-img2.jpg" alt=""/>
+                      <div class="portfolio-overlay-content">
+                        <h2>Project Title</h2>
+                        <span class="link-page"><a href="#" class="prettyPhoto"></a></span><span class="video-page"><a href="http://vimeo.com/8245346" class="prettyPhoto"></a></span> </div>
+                    </div>
+                  </figure>
+                  <div class="carousel-proj-text">
+                    <h5><a href="#">Gallery post format</a></h5>
+                    <p class="excerpt">Suspendisse id mi eget diam condimentum aliquet. Ut ante nunc, eleifend sed... </p>
+                  </div>
+                </li> -->
+              </ul>
+            </div>
+            <div class="es-nav"><span class="es-nav-prev"><i class="icon-chevron-left"></i></span><span class="es-nav-next"><i class="icon-chevron-right"></i></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="row">
+        <!-- <article class="span3">
+          <div class="title">
+            <h4 class="indent-1">我们的优势</h4>
           </div>
           <div class="img-border">
             <div class="img-slidewrap">
@@ -273,8 +688,8 @@
               <ul class="img-slider" id="imgslider">
                 <li class="img-slide"> <img src="img/page1-img2.jpg" alt=""/>
                   <ul class="team-social">
-                    <li class="twitter-team"><a href="#">Twitter</a></li>
-                    <li class="facebook-team"><a href="#">Facebook</a></li>
+                    <li class="twitter-team"><a href="#">简便</a></li>
+                    <li class="facebook-team"><a href="#">正规</a></li>
                     <li class="dribbble-team"><a href="#">Dribbble</a></li>
                     <li class="skype-team"><a href="#">Skype</a></li>
                   </ul>
@@ -299,15 +714,11 @@
             </div>
           </div>
           <ul class="list-feature">
-            <li><a href="#">Quisque diam lorem sectetuer adipiscing</a></li>
-            <li><a href="#">Scelerisque ipsum auctor vitae, pede</a></li>
-            <li><a href="#">Lacinia dictum elementum velit fermentum</a></li>
-            <li><a href="#">Donec in velit vel ipsum auctor pulvinar</a></li>
-            <li><a href="#">Scelerisque ipsum auctor vitae, pede</a></li>
-            <li><a href="#">Sictum elementum velit fermentum</a></li>
+            <li><a href="#">预约上门回收：简便快捷</a></li>
+            <li><a href="#">正规的回收企业拥有先进的分类处理技术</a></li>
           </ul>
-        </article>
-        <article class="span3">
+        </article> -->
+        <article class="span6">
           <div class="title">
             <h4 class="indent-1">易收网动态</h4>
           </div>
@@ -449,28 +860,28 @@
 					 data-y="100" 
 					 data-speed="500" 
 					 data-start="4200" 
-					 data-easing="easeOutExpo"  >100% Responsive Theme</div>
+					 data-easing="easeOutExpo"  >因为专业，所以信赖</div>
           <div class="tp-caption big_colorbg sfr"  
 					 data-x="610" 
 					 data-y="139" 
 					 data-speed="500" 
 					 data-start="4500" 
-					 data-easing="easeOutExpo"  >Really clean & flexible</div>
+					 data-easing="easeOutExpo"  >一流的团队</div>
           <div class="tp-caption medium_whitebg sft"  
 					 data-x="610" 
 					 data-y="215" 
 					 data-speed="500" 
 					 data-start="4800" 
-					 data-easing="easeOutExpo"  >Easy & quick to use</div>
+					 data-easing="easeOutExpo"  >因为合理，所以持续</div>
           <div class="tp-caption big_colorbg sfr"  
 					 data-x="610" 
 					 data-y="255" 
 					 data-speed="500" 
 					 data-start="5100" 
-					 data-easing="easeOutExpo"  >Flexible and easy to use</div>
+					 data-easing="easeOutExpo"  >合作共赢</div>
         </li>
         <!-- THE 2 SLIDE -->
-        <li data-transition="papercut" data-slotamount="10"> <img src="img/rs-slider/slides/bg/2.jpg">
+       <!--  <li data-transition="papercut" data-slotamount="10"> <img src="img/rs-slider/slides/bg/2.jpg">
           <div class="caption lft" data-x="-70" data-y="-30" data-speed="900" data-start="900" data-easing="easeOutExpo"><img src="img/rs-slider/slides/glare.png"></div>
           <div class="caption lfl" data-x="-60" data-y="10" data-speed="900" data-start="1300" data-easing="easeOutBack"><img src="img/rs-slider/slides/man4.png"></div>
           <div class="tp-caption customfont_color lfr start"  data-x="470" data-y="47" data-speed="400" data-start="1700" data-easing="easeOutExpo">Web Solution</div>
@@ -481,9 +892,9 @@
           <div class="caption lfr small_text"  data-x="560" data-y="240" data-speed="300" data-start="2600" data-easing="easeOutExpo">Sliding, Fading, Slots, Box Transitions has it all!</div>
           <div class="caption sfl" data-x="510" data-y="280" data-speed="300" data-start="3200" data-easing="easeOutExpo"><img src="img/rs-slider/slides/check.png"></div>
           <div class="caption lfr small_text"  data-x="560" data-y="290" data-speed="300" data-start="3200" data-easing="easeOutExpo">Customizable Navigation Arrows, Bullets, Thumbs</div>
-        </li>
+        </li> -->
         <!-- THE 3 SLIDE -->
-        <li data-transition="fade" data-slotamount="7" data-masterspeed="300" > <img src="img/rs-slider/slides/bg/3.jpg" alt="bgslider-blue" data-fullwidthcentering="true">
+        <!-- <li data-transition="fade" data-slotamount="7" data-masterspeed="300" > <img src="img/rs-slider/slides/bg/3.jpg" alt="bgslider-blue" data-fullwidthcentering="true">
           <div class="tp-caption sfl"  
 					 data-x="-1" 
 					 data-y="30" 
@@ -568,9 +979,9 @@
 					 data-speed="300" 
 					 data-start="3700" 
 					 data-easing="easeOutBack"  >Responsive</div>
-        </li>
+        </li> -->
         <!-- THE 4 SLIDE -->
-        <li data-transition="fade" data-slotamount="7" data-masterspeed="300" > <img src="img/rs-slider/slides/bg/4.jpg" alt="bgslider-blue2" data-fullwidthcentering="true">
+       <!--  <li data-transition="fade" data-slotamount="7" data-masterspeed="300" > <img src="img/rs-slider/slides/bg/4.jpg" alt="bgslider-blue2" data-fullwidthcentering="true">
           <div class="tp-caption sfl"  
 					 data-x="27" 
 					 data-y="17" 
@@ -607,9 +1018,9 @@
 					 data-speed="900" 
 					 data-start="2000" 
 					 data-easing="easeOutElastic"  ><img src="img/rs-slider/slides/ie.png" alt="Image 7"></div>
-        </li>
+        </li> -->
         <!-- THE 5 SLIDE -->
-        <li data-transition="papercut" data-slotamount="7" data-masterspeed="300" > <img src="img/rs-slider/slides/bg/5.jpg" alt="bgslider-blue" data-fullwidthcentering="true">
+       <!--  <li data-transition="papercut" data-slotamount="7" data-masterspeed="300" > <img src="img/rs-slider/slides/bg/5.jpg" alt="bgslider-blue" data-fullwidthcentering="true">
           <div class="tp-caption sfb"  
 					 data-x="58" 
 					 data-y="85" 
@@ -671,23 +1082,23 @@
 					 data-speed="300" 
 					 data-start="3200" 
 					 data-easing="easeInElastic"  ><a href="#" class="btn btn-large btn-success"><i class="icon-star icon-white"></i> Lets work together!</a></div>
-        </li>
+        </li> -->
         <!-- THE 6 SLIDE -->
-        <li data-transition="fade" data-slotamount="7" data-masterspeed="300" > <img src="img/rs-slider/slides/bg/6.jpg" alt="bgslider-blue2" data-fullwidthcentering="true">
+        <!-- <li data-transition="fade" data-slotamount="7" data-masterspeed="300" > <img src="img/rs-slider/slides/bg/6.jpg" alt="bgslider-blue2" data-fullwidthcentering="true">
           <div class="tp-caption sfb"  
 					 data-x="0" 
 					 data-y="65" 
 					 data-speed="1300" 
 					 data-start="500" 
 					 data-easing="easeOutExpo"  >
-            <iframe src='http://www.youtube.com/embed/SfISjJaYCTI?hd=1&amp;wmode=opaque&amp;controls=1&amp;showinfo=0;rel=0' width='460' height='259' style='width:460px;height:259px;'></iframe>
+            <iframe src='http://v.youku.com/v_show/id_XODA3NzU0NDQ4.html?firsttime=0' width='460' height='259' style='width:460px;height:259px;'></iframe>
           </div>
           <div class="tp-caption big_colorbg sfr"  
 					 data-x="537" 
 					 data-y="97" 
 					 data-speed="300" 
 					 data-start="800" 
-					 data-easing="easeOutExpo"  >Work on all browsers</div>
+					 data-easing="easeOutExpo"  >专业的团队</div>
           <div class="tp-caption medium_whitebg sfr"  
 					 data-x="538" 
 					 data-y="141" 
@@ -699,14 +1110,16 @@
 					 data-y="210" 
 					 data-speed="900" 
 					 data-start="1400" 
-					 data-easing="easeOutElastic"  ><img src="img/rs-slider/slides/youtube-logo.png" alt="Image 5"></div>
+					 data-easing="easeOutElastic"  >
+					 <img src="img/rs-slider/slides/youtube-logo.png" alt="Image 5">
+		  </div>
           <div class="tp-caption sfb"  
 					 data-x="710" 
 					 data-y="210" 
 					 data-speed="900" 
 					 data-start="2100" 
 					 data-easing="easeOutElastic"  ><img src="img/rs-slider/slides/vimeo-logo.png" alt="Image 6"></div>
-        </li>
+        </li> -->
       </ul>
       <div class="tp-bannertimer"></div>
     </div>
@@ -723,7 +1136,7 @@
             <address class="vcard">
             <span class="street-address">南京市玄武区徐庄软件园苏宁大道1号</span> 
             <span class="tel">+1 234 123 4567</span> 
-            <a href="mailto:info@owltemplates.com" class="email">info@owltemplates.com</a>
+            <a href="mailto:info@owltemplates.com" class="email">info@suning.com</a>
             <!-- <ul id="social" class="tooltip-demo">
               <li><a rel="tooltip" title="RSS" href="#"><img alt="RSS" src="img/social_icons/rss.png"></a></li>
               <li><a rel="tooltip" title="Twitter" href="#"><img alt="Twitter" src="img/social_icons/twitter.png"></a></li>
@@ -746,12 +1159,8 @@
           </div>
           <!-- twitter feed  -->
           <div class="span3">
-            <h2>使用帮助</h2>
-            <div class="tweets">
-              <p> </p>
-              <ul id="tweet-list">
-              </ul>
-            </div>
+            <h2>加盟合作</h2>
+            <p>回收网点</p>
           </div>
           <!-- Newsletter -->
           <div class="span3">
@@ -781,6 +1190,7 @@
   </footer>
 </div>
 <!--==============================Style Switcher =================================-->
+<!-- 
 <div class="switcher clearfix">
   <div class="switcher-head"> <span>风格</span>
     <div class="switcher-trigger icon-cog"></div>
@@ -839,6 +1249,7 @@
     <div id="switcher-option-footer" class="switcher-op-footerc clearfix"> <a href="#" data-color="dark" class="swfooter-active">Dark Footer</a> <a href="#" data-color="light">Light Footer</a> </div>
   </div>
 </div>
+ -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
@@ -892,7 +1303,6 @@
 <!-- Image animated Style  -->
 <script type="text/javascript">	
 			$(function() {
-			
 				$( '#ri-grid' ).gridrotator( {
 					rows : 4,
 					columns : 8,
