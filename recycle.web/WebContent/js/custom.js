@@ -76,14 +76,14 @@ $(document).ready(function() {
     var user = 'envato'; // Set your twitter id
     var count = '2'; // How many feeds do you want. Recommended Max 10 Twitter Api
 
-    $.getJSON('http://api.twitter.com/1/statuses/user_timeline/envato.json?screen_name=' + user + '&count=' + count + '&callback=?',
+    /*$.getJSON('http://api.twitter.com/1/statuses/user_timeline/envato.json?screen_name=' + user + '&count=' + count + '&callback=?',
     function(tweetdata) {
         var tl = $("#tweet-list");
         $.each(tweetdata,
         function(i, tweet) {
             tl.append("<li>&ldquo;" + urlToLink(tweet.text) + "&rdquo;&ndash; " + relTime(tweet.created_at) + "</li>");
         });
-    });
+    });*/
 	
     setTimeout(function() {
         $('.tweets p').hide();
@@ -100,9 +100,10 @@ $(document).ready(function() {
 
       var tabs = $("div#mySliderTabs").sliderTabs({
         autoplay: false,
-        indicators: true,
-        panelArrows: true,
-        panelArrowsShowOnHover: true
+        indicators: false,
+        panelArrows: false,
+        panelArrowsShowOnHover: false,
+        mousewheel:false
       });
 
       var demo = $("div#demoSlider").sliderTabs({
