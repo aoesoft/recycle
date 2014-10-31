@@ -29,6 +29,8 @@
 <link rel="stylesheet" href="css/portfolio.css" type="text/css" media="screen">
 <link rel="stylesheet" href="css/portfolio-shape.css" type="text/css" media="screen">
 <link rel="stylesheet" href="css/elements.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/typeahead.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/location.css" type="text/css" media="screen">
 <!--[if lt IE 9]>
     <link rel="stylesheet" href="css/docs.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
@@ -119,6 +121,23 @@
           <div class="span12">
             <!-- Logo -->
             <h1 class="brand brand_"><a href="index.html"><img src="img/logo.jpg" alt=""></a></h1>
+            	<div>
+		      		<ul id="location">
+						<li id="summary">
+							<div class="dt" style="margin:40px auto 0 auto;">
+								<i class="medium circle-yes icon-home"></i>
+								我的位置
+							</div>
+							<div class="dd" style="margin:40px auto 0 auto;">
+								<div id="store-selector">
+									<div class="text"><div></div><b></b></div>                   
+									<div onclick="$('#store-selector').removeClass('hover')" class="close"></div>
+								</div><!--store-selector end-->
+								<div id="store-prompt"><strong></strong></div><!--store-prompt end--->
+							</div>
+						</li>
+					</ul>
+		      	</div>
             <!-- Navigation -->
             <div class="navbar navbar_">
               <div class="container">
@@ -198,7 +217,33 @@
         </div>
       </div>
     </header>
+ 	  <!-- Search box -->
+ 	  <div class="container">
+	      <div class="row">
+	        <div class="span12">
+	          <div class="info-box shadow-large">
+	            <div class="info-box-inner">
+	              <a style="float: left;" class="button medium" href="#">快速搜索</a>
+	              <div class="info-content" id="the-basics">
+	                <input class="span10 typeahead" type="text" placeholder="Search">
+	              </div>
+	              <div class="clearfix"></div>
+	            </div>
+	          </div>
+	          <span class="tt-dropdown-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none; right: auto;">
+	          	<div class="tt-dataset-states">
+	          	</div>
+	          </span>
+	        </div>
+	      </div>
+	      <!-- <div class="input-append" id="the-basics">
+			<input class="span11 input-xxlarge  typeahead" id="appendedInputButtons" size="16" type="text">
+			<button class="button medium red" type="button">快速搜索</button>
+		  </div> -->
+
+      </div>
   </div>
+  
   
   <!--==============================content=================================-->
   <section id="content">
@@ -210,7 +255,7 @@
               <div class="inner"><i class="fontawesome-icon medium circle-yes icon-hand-down"></i>
                 <h4>手机.</h4>
                 <p>手机专区.</p>
-                <a href="#" class="button">进入</a> </div>
+                <a href="more.jsp" class="button">进入</a> </div>
             </div>
           </li>
           <li class="banners_item style-1 ">
@@ -548,10 +593,10 @@
 				          <li><a href="#"><img src="img/brand/kongtiao/sanlindianji.jpg" alt=""></a></li>
 				          <li><a href="#"><img src="img/brand/kongtiao/sanxin.jpg" alt=""></a></li>
 				          <li><a href="#"><img src="img/brand/kongtiao/sanyang.jpg" alt=""></a></li>
-				          <li><a href="#"><img src="img/brand/kongtiao/songxia.jpg" alt=""></a></li>
-				          <li><a href="#"><img src="img/brand/kongtiao/tcl.jpg" alt=""></a></li>
 				          <li><a href="#"><img src="img/brand/kongtiao/xinke.jpg" alt=""></a></li>
 				          <li><a href="#"><img src="img/brand/kongtiao/zhigao.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/kongtiao/tcl.jpg" alt=""></a></li>
+				          <li><a href="#"><img src="img/brand/kongtiao/songxia.jpg" alt=""></a></li>
 				        </ul>
 				       <ul class="list-feature">
 			            <li><a href="#">查看更多品牌</a></li>
@@ -1307,6 +1352,8 @@
 <!-- Metro Style  -->
 <script type="text/javascript" src="js/boxgrid.js"></script>
 <script type="text/javascript" src="demo/switcher.js"></script>
+<script type="text/javascript" src="js/typeahead.bundle.js"></script>
+<script type="text/javascript" src="js/location.js"></script>
 <!-- Elastislider  -->
 <script>
 				jQuery("#carousel-blog").elastislide({
@@ -1353,10 +1400,7 @@
 <!-- Metro Style  -->
 <script>
 			$(function() {
-
 				Boxgrid.init();
-				
-
 			});
 		</script>
 <!-- Revolution Slider  -->
@@ -1445,5 +1489,127 @@
 			});
 		});
   </script>
+  
+  <script type="text/javascript">
+  var search_index = new Bloodhound({
+	  datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
+	  queryTokenizer: Bloodhound.tokenizers.whitespace,
+	  limit: 10,
+	  prefetch: {
+	    url: 'js/phone2.json',
+	    filter: function(list) {
+	      return $.map(list, function(data) { return { name: data.name }; });
+	    }
+	  }
+	});
+	 
+	// kicks off the loading/processing of `local` and `prefetch`
+	search_index.initialize();
+	 
+	// passing in `null` for the `options` arguments will result in the default
+	// options being used
+	$('#the-basics .typeahead').typeahead(null, {
+	  name: 'search_index',
+	  displayKey: 'name',
+	  /*  templates:{
+		  header:"<span align='center'>- 易收网搜索</span>",
+		  empty:[
+		          '<div class="empty-message">',
+		          '没有建议的搜索',
+		          '</div>'
+		        ].join('\n'),
+		  suggestion: Handlebars.compile('<p><strong>{{value}}</strong> – {{name}}</p>')
+	  }, */
+	  // `ttAdapter` wraps the suggestion engine in an adapter that
+	  // is compatible with the typeahead jQuery plugin
+	  source: search_index.ttAdapter()
+	});
+	
+	
+	/*
+	* 从多个索引数据源查询数据
+	*/
+	var phone_s = new Bloodhound({
+		  datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
+		  queryTokenizer: Bloodhound.tokenizers.whitespace,
+		  prefetch: 'js/phone.json'
+		});
+		 
+		var kongtiao_s = new Bloodhound({
+		  datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
+		  queryTokenizer: Bloodhound.tokenizers.whitespace,
+		  prefetch: 'js/phone.json'
+		});
+		 
+		phone_s.initialize();
+		kongtiao_s.initialize();
+		 
+		$('#multiple-datasets .typeahead').typeahead({
+		  highlight: true
+		},
+		{
+		  name: 'phone_s',
+		  displayKey: 'name',
+		  source: phone_s.ttAdapter(),
+		  templates: {
+		    header: '<h3 class="league-name">手机</h3>'
+		  }
+		},
+		{
+		  name: 'kongtiao_s',
+		  displayKey: 'name',
+		  source: kongtiao_s.ttAdapter(),
+		  templates: {
+		    header: '<h3 class="league-name">平板</h3>'
+		  }
+		});
+  
+	/*
+	* 原始方式：直接提供查询值
+	*/
+	/* var substringMatcher = function(strs) {
+		  return function findMatches(q, cb) {
+		    var matches, substrRegex;
+		    matches = [];
+		    // regex used to determine if a string contains the substring `q`
+		    substrRegex = new RegExp(q, 'i');
+		 
+		    // iterate through the pool of strings and for any string that
+		    // contains the substring `q`, add it to the `matches` array
+		    $.each(strs, function(i, str) {
+		      if (substrRegex.test(str)) {
+		        // the typeahead jQuery plugin expects suggestions to a
+		        // JavaScript object, refer to typeahead docs for more info
+		        matches.push({ value: str });
+		      }
+		    });
+		 
+		    cb(matches);
+		  };
+		};
+		 
+		var states = ['Nokie', 'Htc', 'Gs7890', 'Arkansas', 'California',
+		  'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii',
+		  'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana',
+		  'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota',
+		  'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire',
+		  'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota',
+		  'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island',
+		  'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont',
+		  'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'
+		];
+		 
+		$('#the-basics .typeahead').typeahead({
+			limit: 10,
+		  hint: true,
+		  highlight: true,
+		  minLength: 1
+		},
+		{
+		  name: 'states',
+		  displayKey: 'value',
+		  source: substringMatcher(states)
+		}); */
+	</script>
 </body>
 </html>

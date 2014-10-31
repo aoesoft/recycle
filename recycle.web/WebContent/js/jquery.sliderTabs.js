@@ -212,13 +212,15 @@
 			// Panel arrows
 
 			// Mousehweel
-			$container.bind('mousewheel', function(event, delta, deltaX, deltaY) {
-			    if(delta > 0)
-			    	plugin.next();
-			   	else if(delta < 0)
-			   		plugin.prev();
-			   	return false;
-			});
+			if(settings.mousewheel){
+				$container.bind('mousewheel', function(event, delta, deltaX, deltaY) {
+				    if(delta > 0)
+				    	plugin.next();
+				   	else if(delta < 0)
+				   		plugin.prev();
+				   	return false;
+				});
+			}
 		}
 
 		/*
