@@ -32,6 +32,7 @@
 <link rel="stylesheet" href="css/elements.css" type="text/css" media="screen">
 <link rel="stylesheet" href="css/bs-wizard-min.css" type="text/css" media="screen">
 <link rel="stylesheet" href="css/chosen.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/select.css" type="text/css" media="screen">
 <!--[if lt IE 9]>
     <link rel="stylesheet" href="css/docs.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
@@ -82,10 +83,9 @@
 <div class="row bs-wizard">
   <div class="span3">
     <ol class="bs-wizard-sidebar">
-      <li class="bs-wizard-todo bs-wizard-active"><a href="javascript:void(0)">购买渠道</a></li>
-      <li class="bs-wizard-todo"><a href="javascript:void(0)">存储容量</a></li>
-      <li class="bs-wizard-todo"><a href="javascript:void(0)">系统版本</a></li>
-      <li class="bs-wizard-todo"><a href="javascript:void(0)">维修拆机情况</a></li>
+      <li class="bs-wizard-todo bs-wizard-active"><a href="javascript:void(0)">基本情况</a></li>
+      <li class="bs-wizard-todo"><a href="javascript:void(0)">损坏情况</a></li>
+      <li class="bs-wizard-todo"><a href="javascript:void(0)">系统评估</a></li>
     </ol>
   </div>
   <div class="span9">
@@ -99,141 +99,151 @@
             <div class="panel-body bs-step-inner">
               <div class="form-group">
               	 <div class="row">
-			      <div class="span9 portfolio">
-			        <div class="row clearfix">
-			          <ul class="holder">
-			            <li class="span9">
-			              <div class="featured-thumbnail">
-              				<button class="btn btn-large btn-info" type="button">大陆国行(有“进网许可证”标签)</button>
-			                </div>
-			            </li>
-			            
-			            <li class="span9">
-			              <div class="featured-thumbnail">
-              				<button class="btn btn-large" type="button">香港行货(香港购买，全球联保)</button>
-			                </div>
-			            </li>
-			            
-			            <li class="span9">
-			              <div class="featured-thumbnail">
-			              	<button class="btn btn-large" type="button">水货有锁(需要卡贴解锁/烧卡机)</button>
-			                </div>
-			            </li>
-			            
-			            <li class="span9">
-			              <div class="featured-thumbnail">
-			              	<button class="btn btn-large" type="button">水货无锁(不要卡贴解锁/烧卡机)</button>
-			                </div>
-			            </li>
-			            
-			            <li class="span9">
-			              <div class="featured-thumbnail">
-			              	<button class="btn btn-large" type="button">高仿或组装机</button>
-			               </div>
-			            </li>
-			           </ul>
-			          </div>
-			         </div>
-			        </div>
+	              	 <div class="iteminfo_buying">
+						<div class="sys_item_spec">
+							<dl class="clearfix iteminfo_parameter sys_item_specpara" data-sid="1">
+								<dt>购买渠道</dt>
+								<dd>
+									<ul class="sys_spec_text">
+										<li data-aid="3"><a href="javascript:;" title="有进网许可证标签">大陆国行</a><i></i></li>
+										<li data-aid="4"><a href="javascript:;" title="香港购买，全球联保">香港行货</a><i></i></li>
+										<li data-aid="8"><a href="javascript:;" title="需要卡贴解锁/烧卡机">水货有锁</a><i></i></li>
+										<li data-aid="9"><a href="javascript:;" title="不要卡贴解锁/烧卡机">水货无锁</a><i></i></li>
+										<li data-aid="10"><a href="javascript:;" title="只能做回收处理">高仿或组装机</a><i></i></li>
+									</ul>
+					
+								</dd>
+							</dl>
+							<dl class="clearfix iteminfo_parameter sys_item_specpara" data-sid="2">
+								<dt>存储容量</dt>
+								<dd>
+									<ul class="sys_spec_text">
+										<li data-aid="13"><a href="javascript:;" title="">8G</a><i></i></li>
+										<li data-aid="14"><a href="javascript:;" title="">16G</a><i></i></li>
+										<li data-aid="16"><a href="javascript:;" title="">32G</a><i></i></li>
+										<li data-aid="17"><a href="javascript:;" title="">64G</a><i></i></li>
+									</ul>
+								</dd>
+							</dl>
+							<dl class="clearfix iteminfo_parameter sys_item_specpara" data-sid="2">
+								<dt>iOS 版本</dt>
+								<dd>
+									<ul class="sys_spec_text">
+										<li data-aid="16"><a href="javascript:;" title="">iOS 6</a><i></i></li>
+										<li data-aid="13"><a href="javascript:;" title="">iOS 7</a><i></i></li>
+										<li data-aid="14"><a href="javascript:;" title="">iOS 8</a><i></i></li>
+									</ul>
+								</dd>
+							</dl>
+							<dl class="clearfix iteminfo_parameter sys_item_specpara" data-sid="2">
+								<dt>保修情况</dt>
+								<dd>
+									<ul class="sys_spec_text">
+										<li data-aid="13"><a href="javascript:;" title="S">过保</a><i></i></li>
+										<li data-aid="14"><a href="javascript:;" title="M">3个月</a><i></i></li>
+										<li data-aid="16"><a href="javascript:;" title="L">1年</a><i></i></li>
+										<li data-aid="17"><a href="javascript:;" title="XL">3年</a><i></i></li>
+									</ul>
+								</dd>
+							</dl>
+						 </div>
+					</div>
+              	 
 			      </div>
+			   </div>
             </div>
           </div>
         </div>
         <div class="bs-step inv">
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <!-- <div class="panel-heading">
               <h3 class="panel-title">Please provide your website information</h3>
-            </div>
+            </div> -->
             <div class="panel-body bs-step-inner">
-              <div class="span6">
-                <div class="form-group">
-                  <label for="website_sub_name">Subdomain name</label>
-                  <div class="input-group input-group-fix">
-                    <span class="input-group-addon">http://</span>
-                    <input type="text" size="30" placeholder="Your Subdomain Name" name="website[sub_name]" id="website_sub_name" data-popover-offset="0,120" class="span2 form-control">
-                    <span class="input-group-addon">.example.com</span>
-                  </div>
-                </div>
-              </div>
-              <div class="clearfix"></div>
-              <div class="form-group">
-                <label for="website_locales">Supportted languages</label>
-                <div class="input-group" id="locale-wrapper">           
-                  <input type="checkbox" value="en" name="website[locales][]" id="locales_0" data-popover-offset="-10,175" checked="checked">
-                  <label>English</label>
-                  <input type="checkbox" value="zh-CN" name="website[locales][]" id="locales_1">
-                  <label>Simple Chinese</label>
-                </div>
-                <div class="clearfix"></div>
-              </div>
-              <div class="form-group">
-                <label for="website_default_locale">Default language</label>
-                <select class="form-control" id="website_default_locale" name="website[default_locale]">
-                  <option value="en" id="opt-en">English</option>
-                </select>
-              </div>
-              <div>
-                <label>Website Pages</label>
-                <table id="website-pages" class="table table-striped table-condensed">
-                  <thead>
-                    <tr>
-                      <th>Page Title</th>
-                      <th>Page Path</th>
-                      <th>Menu Title</th>
-                      <th></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>
-                        <span class="label label-success">
-                        Home Page
-                        </span>
-                      </td>
-                      <td>/</td>
-                      <td>Home</td>
-                      <td class="tright">
-                        <i class="icon-ok"></i>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <span class="label label-success">
-                        About Us
-                        </span>
-                      </td>
-                      <td>/about</td>
-                      <td>About</td>
-                      <td class="tright">
-                        <input type="checkbox" value="about" name="website[predefined_pages][]" checked="checked">
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <span class="label label-success">
-                        Contact Us
-                        </span>
-                      </td>
-                      <td>/contact</td>
-                      <td>Contact</td>
-                      <td class="tright">
-                        <input type="checkbox" value="contact" name="website[predefined_pages][]" checked="checked">
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                <div class="clearfix"></div>
+            	<div class="form-group">
+              	 <div class="row">
+	              	 <div class="iteminfo_buying">
+						<div class="sys_item_spec">
+							<dl class="clearfix iteminfo_parameter sys_item_specpara" data-sid="1">
+								<dt>维修拆机史</dt>
+								<dd>
+									<ul class="sys_spec_text">
+										<li data-aid="3"><a href="javascript:;" title="没有进行过拆机维修">无拆机无维修</a><i></i></li>
+										<li data-aid="4"><a href="javascript:;" title="没有维修过主要部件，组装屏">有小拆修</a><i></i></li>
+										<li data-aid="8"><a href="javascript:;" title="维修过主板、CPU，非原装部件">有大拆修</a><i></i></li>
+										<li data-aid="9"><a href="javascript:;" title="内部缺损">报废</a><i></i></li>
+									</ul>
+								</dd>
+							</dl>
+							<dl class="clearfix iteminfo_parameter sys_item_specpara" data-sid="1">
+								<dt>屏幕显示</dt>
+								<dd>
+									<ul class="sys_spec_text">
+										<li data-aid="3"><a href="javascript:;" title="">正常显示</a><i></i></li>
+										<li data-aid="4"><a href="javascript:;" title="">有亮点/坏点/斑点</a><i></i></li>
+										<li data-aid="8"><a href="javascript:;" title="">无法正常显示</a><i></i></li>
+										<li data-aid="9"><a href="javascript:;" title="">屏幕色差</a><i></i></li>
+									</ul>
+								</dd>
+							</dl>
+							<dl class="clearfix iteminfo_parameter sys_item_specpara" data-sid="1">
+								<dt>屏幕外观</dt>
+								<dd>
+									<ul class="sys_spec_text">
+										<li data-aid="3"><a href="javascript:;" title="">无划痕</a><i></i></li>
+										<li data-aid="4"><a href="javascript:;" title="">明显划痕</a><i></i></li>
+										<li data-aid="8"><a href="javascript:;" title="">碎裂/内屏破损</a><i></i></li>
+										<li data-aid="9"><a href="javascript:;" title="">磕碰缺角</a><i></i></li>
+										<li data-aid="9"><a href="javascript:;" title="">细微划痕</a><i></i></li>
+									</ul>
+								</dd>
+							</dl>
+							<dl class="clearfix iteminfo_parameter sys_item_specpara" data-sid="1">
+								<dt>外观成色</dt>
+								<dd>
+									<ul class="sys_spec_text">
+										<li data-aid="3"><a href="javascript:;" title="">没有使用痕迹</a><i></i></li>
+										<li data-aid="4"><a href="javascript:;" title="">轻微使用痕迹</a><i></i></li>
+										<li data-aid="8"><a href="javascript:;" title="">明显使用痕迹</a><i></i></li>
+										<li data-aid="9"><a href="javascript:;" title="">外观残裂磨损</a><i></i></li>
+										<li data-aid="9"><a href="javascript:;" title="">外观磕伤掉漆</a><i></i></li>
+										<li data-aid="9"><a href="javascript:;" title="">全新</a><i></i></li>
+									</ul>
+								</dd>
+							</dl>
+							<dl class="clearfix iteminfo_parameter sys_item_specpara" multi="true" data-sid="2">
+								<dt>其他故障<br/>(可多选)</dt>
+								<dd>
+									<ul class="sys_spec_text">
+										<li data-aid="13"><a href="javascript:;" title="">开机不正常</a><i></i></li>
+										<li data-aid="14"><a href="javascript:;" title="">通话不正常</a><i></i></li>
+										<li data-aid="16"><a href="javascript:;" title="">触摸不正常</a><i></i></li>
+										<li data-aid="17"><a href="javascript:;" title="">iCloud有锁不可解除</a><i></i></li>
+										<li data-aid="17"><a href="javascript:;" title="">拍照摄像不正常</a><i></i></li>
+										<li data-aid="17"><a href="javascript:;" title="">充电不正常</a><i></i></li>
+										<li data-aid="17"><a href="javascript:;" title="">无线不正常</a><i></i></li>
+										<li data-aid="17"><a href="javascript:;" title="">按键不正常</a><i></i></li>
+										<li data-aid="17"><a href="javascript:;" title="">机器有进水或受潮</a><i></i></li>
+									</ul>
+								</dd>
+							</dl>
+						 </div>
+					</div>
+              	 	<!--  <div class="clearfix"></div>
+		              <button id="last-back" type="reset" class="btn btn-default">上一步</button>
+		              <button id="btn-signup" type="submit" class="btn btn-primary submit-btn">提交</button> -->
+			      </div>
+			   </div>
               </div>
             </div>
           </div>
-        </div>
         <div class="bs-step inv">
           <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">Pleaes review your details and sign up</h3>
+          <div class="panel-heading">
+              <h3 class="panel-title">在线评估</h3>
             </div>
             <div class="panel-body bs-step-inner">
-              <div>
+              <!-- <div>
                 <h3 class="with-underline">Your Account Details</h3>
                 <table class="table table-condensed info-table">
                   <tbody>
@@ -272,12 +282,9 @@
                     </tr>
                   </tbody>
                 </table>
-              </div>
-              <div class="clearfix"></div>
-              <button id="last-back" type="reset" class="btn btn-default">Go Back</button>
-              <button id="btn-signup" type="submit" class="btn btn-primary submit-btn">Sign Up</button>
-              <input type="checkbox" data-popover-offset="-10,-6" name="agreeToTheTerms" id="agreeToTheTerms" class="required terms_checkbox">
-              <span id="termsLabel">I agree to <a id="termLink" href="" target="_blank">Terms of Service</a></span>
+              </div> -->
+              <button id="last-back" type="reset" class="btn btn-default">上一步</button>
+              <button id="btn-signup" type="submit" class="btn btn-primary submit-btn">提交</button>
             </div>
           </div>
         </div>
@@ -287,70 +294,6 @@
 </div>
 </div>
 
-
- <!-- <div class="row bs-wizard">  
-    <div class="col-lg-3">
-      <ol class="bs-wizard-sidebar">
-        <li class="bs-wizard-todo bs-wizard-active"><a href="javascript:void(0)">Step1</a></li>
-        <li class="bs-wizard-todo"><a href="javascript:void(0)">Step2</a></li>
-        <li class="bs-wizard-todo"><a href="javascript:void(0)">Step3</a></li>
-      </ol>
-    </div>
- 
-    <div class="col-lg-9">
-      <form method="get" action="" accept-charset="UTF-8">
-      <fieldset>
-        <div class="bs-step inv">
-          <legend>First Step</legend>
-          <div class="bs-step-inner">
-            <div class="form-group">
-              <label for="field_1">Field 1</label> 
-              <input type="text" class="form-control" value="" name="field_1" id="field_1" autofocus="autofocus">
-            </div>
- 
-            <div class="form-group">
-              <label for="field_2">Field 2</label> 
-              <input type="text" class="form-control" value="" size="30" name="field_2" id="field_2">
-            </div>
-          </div>
-        </div>
- 
-        <div class="bs-step inv">
-          <legend>Second Step</legend>
-          <div class="bs-step-inner">
-            <div class="form-group">
-              <label for="field_3">Field 3</label> 
-              <input type="text" class="form-control" value="" size="30" name="field_3" id="field_3">
-            </div>
- 
-            <div class="form-group">
-              <label for="field_4">Field 4</label> 
-              <input type="text" class="form-control" value="" size="30" name="field_4" id="field_4">
-            </div>
-          </div>
-        </div>
- 
-        <div class="bs-step inv">
-          <legend>Third Step</legend>
-          <div class="bs-step-inner">
-            <div class="form-group">
-              <label for="field_5">Field 5</label> 
-              <input type="text" class="form-control" value="" size="30" name="field_5" id="field_5">
-            </div>
- 
-            <div class="form-group">
-              <label for="field_6">Field 6</label> 
-              <input type="text" class="form-control" value="" size="30" name="field_6" id="field_6">
-            </div>
- 
-            <button class="btn btn-default" type="reset" id="last-back">Go Back</button>
-            <input class="btn btn-primary submit-btn" type="submit" value="Submit" />
-          </div>
-        </div>
-      </fieldset>
-      </form> 
-    </div>
-  </div> -->
 </div>
 
 		
@@ -401,7 +344,7 @@ $(function() {
     //$(".bs-wizard").bs_wizard();
 	//$(".bs-wizard").bs_wizard({beforeNext: before_next});
 	  
-	$(".bs-wizard").bs_wizard();
+	$(".bs-wizard").bs_wizard({nextText:"下一步", backText:"上一步"});
 	  $('#last-back').click($(".bs-wizard").bs_wizard('go_prev'));
 
 	  $(".submit-btn").click(function(ev) {
@@ -410,5 +353,70 @@ $(function() {
 	  });
   });
 </script>
+
+<script>
+				//价格json
+				var sys_item={
+					"mktprice":"13.00",
+					"price":"6.80",
+					"sys_attrprice":{"3_13":{"price":"6.80","mktprice":"13.00"},"3_14":{"price":"7.80","mktprice":"14.00"},"3_16":{"price":"8.80","mktprice":"15.00"},"3_17":{"price":"9.80","mktprice":"16.00"},"4_13":{"price":"6.80","mktprice":"13.00"},"4_14":{"price":"7.80","mktprice":"14.00"},"4_16":{"price":"8.80","mktprice":"15.00"},"4_17":{"price":"9.80","mktprice":"16.00"},"8_13":{"price":"6.80","mktprice":"13.00"},"8_14":{"price":"7.80","mktprice":"1400"},"8_16":{"price":"8.80","mktprice":"15.00"},"8_17":{"price":"9.80","mktprice":"16.00"},"9_13":{"price":"6.80","mktprice":"13.00"},"9_14":{"price":"7.80","mktprice":"14.00"},"9_16":{"price":"8.80","mktprice":"15.00"},"9_17":{"price":"9.80","mktprice":"16.00"},"10_13":{"price":"6.80","mktprice":"13.00"},"10_14":{"price":"7.80","mktprice":"14.00"},"10_16":{"price":"8.80","mktprice":"15.00"},"10_17":{"price":"9.80","mktprice":"16.00"},"12_13":{"price":"6.80","mktprice":"13.00"},"12_14":{"price":"7.80","mktprice":"14.00"},"12_16":{"price":"8.80","mktprice":"15.00"},"12_17":{"price":"9.80","mktprice":"16.00"}}};
+				
+				
+				//商品规格选择
+				$(function(){
+					$(".sys_item_spec .sys_item_specpara").each(function(){
+						var i=$(this);
+						var p=i.find("ul>li");
+						p.click(function(){
+							if(!!$(this).hasClass("selected")){
+								$(this).removeClass("selected");
+								i.removeAttr("data-attrval");
+							}else{
+								if(i.attr("multi") == "true"){
+									$(this).addClass("selected");									
+									return;
+								}
+								$(this).addClass("selected").siblings("li").removeClass("selected");
+								i.attr("data-attrval",$(this).attr("data-aid"))
+							}
+							getattrprice() //输出价格
+						})
+					})
+					
+					//获取对应属性的价格
+					function getattrprice(){
+						var defaultstats=true;
+						var _val='';
+						var _resp={
+							mktprice:".sys_item_mktprice",
+							price:".sys_item_price"
+						}  //输出对应的class
+						$(".sys_item_spec .sys_item_specpara").each(function(){
+							var i=$(this);
+							var v=i.attr("data-attrval");
+							if(!v){
+								defaultstats=false;
+							}else{
+								_val+=_val!=""?"_":"";
+								_val+=v;
+							}
+						})
+						if(!!defaultstats){
+							_mktprice=sys_item['sys_attrprice'][_val]['mktprice'];
+							_price=sys_item['sys_attrprice'][_val]['price'];
+						}else{
+							_mktprice=sys_item['mktprice'];
+							_price=sys_item['price'];
+						}
+						//输出价格
+						$(_resp.mktprice).text(_mktprice);  ///其中的math.round为截取小数点位数
+						$(_resp.price).text(_price);
+					}
+				})
+				
+				/* $("#btn-signup").click(function(){
+					$("#result").addClass("bs-step").addClass("inv").css("visibility","visible");
+				}); */
+				</script>
 </body>
 </html>
